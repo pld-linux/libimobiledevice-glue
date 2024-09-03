@@ -5,13 +5,13 @@
 Summary:	Common library for libimobiledevice and co.
 Summary(pl.UTF-8):	Biblioteka wspólna dla libimobiledevice i pochodnych
 Name:		libimobiledevice-glue
-Version:	1.2.0
+Version:	1.3.0
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 #Source0Download: https://www.libimobiledevice.org/
 Source0:	https://github.com/libimobiledevice/libimobiledevice-glue/releases/download/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	443085b9c7e91b3089d0a924c38f57a8
+# Source0-md5:	5ac5c9f32a49a7507e9edd2d3e697e82
 URL:		https://libimobiledevice.org/
 BuildRequires:	libplist-devel >= 2.3.0
 BuildRequires:	pkgconfig
