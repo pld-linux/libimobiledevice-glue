@@ -6,7 +6,7 @@ Summary:	Common library for libimobiledevice and co.
 Summary(pl.UTF-8):	Biblioteka wspólna dla libimobiledevice i pochodnych
 Name:		libimobiledevice-glue
 Version:	1.3.2
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries
 #Source0Download: https://www.libimobiledevice.org/
@@ -80,12 +80,12 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc NEWS README.md
-%attr(755,root,root) %{_libdir}/libimobiledevice-glue-1.0.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libimobiledevice-glue-1.0.so.0
+%{_libdir}/libimobiledevice-glue-1.0.so.*.*.*
+%ghost %{_libdir}/libimobiledevice-glue-1.0.so.0
 
 %files devel
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_libdir}/libimobiledevice-glue-1.0.so
+%{_libdir}/libimobiledevice-glue-1.0.so
 %{_includedir}/libimobiledevice-glue
 %{_pkgconfigdir}/libimobiledevice-glue-1.0.pc
 
